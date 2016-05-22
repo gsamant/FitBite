@@ -51,8 +51,8 @@ namespace FitBiteApp
         DispatcherTimer timer;
         Random random = new Random();
 
-        static string AZURE_IOT_HUB_URI = "<Enter iotHub URI>"; 
-        static string IOT_DEVICE_ID = "<Enter your IOT_DEVICE_ID>"; 
+        static string AZURE_IOT_HUB_URI = "<Enter IOT Hub URI>"; 
+        static string IOT_DEVICE_ID = "<Enter your Device Id"; 
         static string IOT_DEVICE_KEY = "<Enter Device Key>"; 
 
         DeviceClient deviceClient;
@@ -91,7 +91,7 @@ namespace FitBiteApp
                 {
 
                     TimeStamp1 = DateTime.UtcNow,
-                    IOT_DEVICE_ID = random.Next(1, 5),
+                    DeviceId = random.Next(1, 5),
                     Temperature = tSensor.value,
                     Light = lSensor.value,
                     Sound = sSensor

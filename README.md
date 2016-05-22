@@ -3,7 +3,8 @@
 FitBite is an IOT-based application for monitoring your pets.
 
 This solution is the core UWP application that runs on raspberry pi 2 with Windows 10 IOT core.
-
+####Additional hardware used - 
+FEZ HAT for temparature and USB camera for capturing images.
 ## FitBite Configuration : Following environment variables need to be set
 * AZURE_STORAGE_ACCOUNT_NAME : Azure Storage account name
 * AZURE_STORAGE_CONTAINER_NAME : Azure Container Name

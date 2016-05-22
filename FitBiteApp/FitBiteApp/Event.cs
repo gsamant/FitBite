@@ -22,6 +22,6 @@ namespace FitBiteApp
         [DataMember]
         public double Sound { get; set; }
         [DataMember]
-        public int IOT_DEVICE_ID { get; set; }
+        public int DeviceId { get; set; }
     }
 }
